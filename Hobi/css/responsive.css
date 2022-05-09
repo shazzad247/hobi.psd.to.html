@@ -1,0 +1,151 @@
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1500px) {
+
+    .header-area {
+        padding: 0px 50px;
+    }
+    .slider-thumb::before {
+        left: 0;
+        width: 650px;
+        height: 650px;
+    }
+    .slider-thumb {
+        width: 640px;
+    }
+
+}
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .header-area {
+        padding: 15px 30px;
+        padding-bottom: 5px;
+    }
+    .logo {
+        position: absolute;
+        top: 20px;
+    }
+    .header-bar {
+        margin-right: 35px;
+    }
+    .singel-slider {
+        min-height: 670px;
+    }
+    .about-tittle h2 {
+        font-size: 56px;
+    }
+    .service-body {
+        padding: 25px 25px;
+    }
+    .skill-img {
+        padding-right: 0;
+    }
+    .skill-tittle h2 {
+        font-size: 50px;
+    }
+    .skill-tittle {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .porfolio-content h3 a {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .news-tittle {
+        padding: 40px 8px;
+    }
+}
+/*  Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+    .experience-img {
+        margin-right: 15px;
+    }
+    .education-img-2 img {
+        position: static;
+    }
+    .education-img-1 {
+        margin-bottom: 20px;
+    }
+    .protfolio-content.f-left h2 {
+        font-size: 50px;
+    }
+    .team-content {
+        margin: 0px 0px;
+    }
+    .cta-content h2 {
+        font-size: 45px;
+    }
+    .cta-btn a {
+        margin-bottom: 15px;
+    }
+    .sec-btn {
+        margin-left: 0px;
+    }
+}
+
+/* small mobile :320px. */
+@media (max-width: 767.98px) {
+    .slider-content h2 {
+        font-size: 70px;
+    }
+    .singel-slider {
+        min-height: 600px;
+    }
+    .footer-widget h2 {
+        font-size: 30px;
+    }
+    .protfolio-menu {
+        padding: 20px 10px;
+    }
+    .cta-btn {
+        margin-left: 65px;
+        margin-top: 10px;
+    }
+    .slider-btn a span {
+        letter-spacing: 0;
+        margin-left: 10px;
+    }
+    .cta-btn a {
+        margin-right: 15px;
+    }
+    .protfolio-content.f-left h2 {
+        font-size: 40px;
+    }
+    .h-btn {
+        margin-bottom: 10px;
+    }
+    .protfolio-menu button::before {
+        display: none;
+    }
+    .porfolio-content h3 a {
+        font-size: 18px;
+    }
+    .team-content {
+        margin: 0px;
+    }
+    .secation-tittle h2 {
+        font-size: 50px;
+    }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .header-area {
+        padding: 48px 30px;
+        padding-bottom: 10px;
+    }
+    .header-btn,.header-bar{
+        display: none;
+    }
+    .mean-container a.meanmenu-reveal {
+        margin-top: -26px;
+    }
+    .mean-container .mean-bar {
+        padding: 10px 10px;
+    }
+    .slider-content h2 {
+        font-size: 35px;
+    }
+    .singel-slider {
+        min-height: 520px;
+    }
+}
